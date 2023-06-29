@@ -1,0 +1,26 @@
+.starter-comp{
+    width:fit-content;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:6rem auto;
+    #welcome-msg{
+        font-size:3rem;
+        margin-bottom:0px;
+        padding-bottom:0px;
+    }
+    #sub-msg{
+        text-align: center;
+    }
+    #lets-start{
+        margin:auto;
+        display: block;
+        background-color:transparent;
+        color:white;
+        cursor:pointer;
+        padding:10px 30px;
+        border:1px solid rgb(255, 255, 255);
+        border-radius:20px;
+        &:hover{
+            background-color: rgb(61, 61, 61);
+        }
+    }
+}

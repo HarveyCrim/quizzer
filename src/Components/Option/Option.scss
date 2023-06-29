@@ -1,0 +1,27 @@
+.option-comp{
+    display: flex;
+    width:34rem;
+    gap:15px;
+    padding:15px;
+    border-radius:20px;
+    font-size:1.4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    
+}
+.unclicked{
+    background-color: rgb(67, 67, 67);
+    &:hover{
+        cursor:pointer;
+        background-color: rgb(39, 39, 39);
+    }
+}
+.clicked{
+    background-color: rgb(196, 44, 44);
+}
+.youranswer{
+    background-color: rgb(232, 229, 35);
+}
+.correct{
+    background-color: rgb(58, 129, 29);
+}

@@ -1,0 +1,16 @@
+.header-comp{
+    display: flex;
+    gap:20px;
+    align-items:center;
+    width:fit-content;
+    margin:10px auto;
+    #react-img{
+        width:7em;
+        height:7em;
+    }
+    #header-heading{
+        font-family: 'Exo 2', sans-serif;
+        font-weight:800;
+        font-size:3rem;
+    }
+}
